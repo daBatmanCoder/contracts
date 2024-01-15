@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Arnacon/Providers.sol": "providersContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Arnacon/Providers.sol": {
+			"keccak256": "0x4ac30991237b61de64928291982d32426be364da8d1db1676713a7edb546352f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9102be01d03cac0f5155e01126226c2e645b4aa2a02dbab49b5feba4774b22a2",
+				"dweb:/ipfs/QmSVoT3feNF8j3LwLxqCY24j6VKkAgJ1vehhTk7smj1oSt"
+			]
+		}
+	},
+	"version": 1
+}

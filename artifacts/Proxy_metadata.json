@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_implementation",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newImplementation",
+						"type": "address"
+					}
+				],
+				"name": "upgrade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Arnacon/Proxy.sol": "Proxy"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Arnacon/Proxy.sol": {
+			"keccak256": "0x52d2f57758fd1965e7569dca98ac11f024191e55103c17f93ab50320a7f4e565",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ba572eedacdfaf28b4684179d9e0069c6a4fc77dd2dc3cffaf24847d329a3d4",
+				"dweb:/ipfs/Qmb7ZnUTad4z4YaoTGFmwp5mTgyDZGQ5Mp5Fyr84sbPHYP"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,76 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_5": {
+					"entryPoint": null,
+					"id": 5,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052603f8060116000396000f3fe6080604052600080fdfea26469706673582212204a6713c7445d0a50de6d387cc47bc27f772915e5fd93364d2928810e1df0894f64736f6c63430008120033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x3F DUP1 PUSH1 0x11 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4A PUSH8 0x13C7445D0A50DE6D CODESIZE PUSH29 0xC47BC27F772915E5FD93364D2928810E1DF0894F64736F6C6343000812 STOP CALLER ",
+			"sourceMap": "63:274:0:-:0;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212204a6713c7445d0a50de6d387cc47bc27f772915e5fd93364d2928810e1df0894f64736f6c63430008120033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0x4A PUSH8 0x13C7445D0A50DE6D CODESIZE PUSH29 0xC47BC27F772915E5FD93364D2928810E1DF0894F64736F6C6343000812 STOP CALLER ",
+			"sourceMap": "63:274:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "42",
+				"totalCost": "12642"
+			},
+			"internal": {
+				"newProvider(string memory,string memory)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "payable",
+			"type": "constructor"
+		}
+	]
+}
